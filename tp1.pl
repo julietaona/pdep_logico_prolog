@@ -2,7 +2,6 @@
 trabajaPara(marsellus, vincent).
 trabajaPara(marsellus, jules).
 trabajaPara(marsellus, winston).
-trabajaPara(winston, ana).
 
 
 %saleCon(Quien, Cual).
