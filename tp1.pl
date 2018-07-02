@@ -5,7 +5,7 @@
 %saleCon(Quien, Cual).
 
 saleCon(Persona1, Persona2):- pareja(Persona1, Persona2).
-saleCon(Persona1, Persona2):- pareja(Persona2, Persona1).
+saleCon(Persona1, Persona2):- not(pareja(Persona1, Persona2)),saleCon(Persona2,Persona1).
 
 %Punto 2
 
